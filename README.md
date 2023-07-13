@@ -29,7 +29,7 @@ You can run the following command below with the [GitHub CLI](https://cli.github
 - Configure your repository's visibility with `--public`, `--private`, or `--internal`
 
 ```shell
-gh repo create {repo-name} --public --clone --template neoncitylights/node-ts-template
+gh repo create {repo-name} --public --clone --template neoncitylights/lint-config
 ```
 
 ### Cookiecutter stuff
@@ -37,8 +37,8 @@ gh repo create {repo-name} --public --clone --template neoncitylights/node-ts-te
 Using your favorite text editor or IDE, find-and-replace the following placeholders:
 
 - `@author/package`: Replace this with the name of your package. This can be scoped under a user/organization (e.g `@samantha/my-really-cool-package`). **Note**: This placeholder is different than the others to avoid warnings from the NPM client.
-- `{libauthor}`: Replace this with your GitHub/npm username, or the name of your organization.
-- `{libname}`: Replace this with the name of your library.
+- `neoncitylights`: Replace this with your GitHub/npm username, or the name of your organization.
+- `lint-config`: Replace this with the name of your library.
 - `neonctylights/node-ts-template`: Replace this with the name of your repository (these occur in the badge URLs inside the `README.md` file).
 
 Delete this `README.md`, and rename [`LIBRARY.md`](./LIBRARY.md) to `README.md`.

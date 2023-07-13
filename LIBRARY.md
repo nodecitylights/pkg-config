@@ -1,13 +1,13 @@
-# `@{libauthor}/{libname}`
+# `@neoncitylights/lint-config`
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub deployments](https://img.shields.io/github/deployments/neoncitylights/node-ts-template/github-pages?label=deploy)](https://github.com/neoncitylights/node-ts-template/deployments/activity_log?environment=github-pages)
-[![Node.js workflow](https://github.com/neoncitylights/node-ts-template/actions/workflows/main.yml/badge.svg)](https://github.com/neoncitylights/node-ts-template/actions/workflows/main.yml)
+[![GitHub deployments](https://img.shields.io/github/deployments/neoncitylights/lint-config/github-pages?label=deploy)](https://github.com/neoncitylights/lint-config/deployments/activity_log?environment=github-pages)
+[![Node.js workflow](https://github.com/neoncitylights/lint-config/actions/workflows/main.yml/badge.svg)](https://github.com/neoncitylights/lint-config/actions/workflows/main.yml)
 
 Describe the library.
 
 ## Install
 ```
-npm install @{libauthor}/{libname}
+npm install @neoncitylights/lint-config
 ```
 
 ## License
