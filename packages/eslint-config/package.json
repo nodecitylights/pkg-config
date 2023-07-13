@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-neoncitylights",
+  "version": "0.0.0",
+  "description": "Personal ESLint configuration settings used by Neoncitylights",
+  "license": "MIT",
+  "author": {
+    "name": "Samantha Nguyen",
+    "email": "contact@samanthanguyen.me"
+  },
+  "main": "index.js",
+  "files": [
+    "react.json"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.44.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-no-jquery": "^2.7.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0"
+  }
+}
