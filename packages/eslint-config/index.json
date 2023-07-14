@@ -1,0 +1,21 @@
+{
+	"env": {
+		"browser": true,
+		"es2022": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:promise/recommended",
+		"plugin:security/recommended"
+	],
+	"plugins": [
+        "security",
+		"simple-import-sort"
+	],
+	"rules": {
+		"simple-import-sort/imports": "error",
+		"simple-import-sort/exports": "error",
+        "security/detect-object-injection": "off"
+	}
+}
