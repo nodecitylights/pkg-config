@@ -19,6 +19,9 @@ module.exports = {
 	'ignorePatterns': [
 		'dist/**/*.ts',
 	],
+	'files': [
+		'packages/**/*.json',
+	],
 	'rules': {
 		'@typescript-eslint/adjacent-overload-signatures': ['error'],
 		'@typescript-eslint/comma-dangle': ['error', {
