@@ -1,0 +1,32 @@
+{
+    "name": "markdownlint-config-neoncitylights",
+    "version": "0.0.0",
+    "description": "Personal Markdownlint configuration settings used by Neoncitylights",
+    "license": "MIT",
+    "author": {
+        "name": "Samantha Nguyen",
+        "email": "contact@samanthanguyen.me"
+    },
+    "keywords": [
+        "markdownlint",
+        "markdownlint-config"
+    ],
+    "homepage": "https://github.com/neoncitylights/lint-config/tree/main/packages/markdownlint-config",
+	"bugs": "https://github.com/neoncitylights/lint-config/issues",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/neoncitylights/lint-config.git"
+	},
+	"funding": {
+		"type": "individual",
+		"url": "https://github.com/sponsors/neoncitylights"
+	},
+    "main": "index.json",
+    "files": [
+        "index.json",
+        "mdbook.json"
+    ],
+    "dependencies": {
+        "markdownlint-cli2": "^0.8.1"
+    }
+}
