@@ -1,16 +1,15 @@
 # lint-config
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub deployments](https://img.shields.io/github/deployments/neoncitylights/lint-config/github-pages?label=deploy)](https://github.com/neoncitylights/lint-config/deployments/activity_log?environment=github-pages)
 [![Node.js workflow](https://github.com/neoncitylights/lint-config/actions/workflows/main.yml/badge.svg)](https://github.com/neoncitylights/lint-config/actions/workflows/main.yml)
 
-Describe the library.
+My personal linting configuration settings for developing projects. Feel free to use them :-)
 
 ## Packages
-| Package                            | Badges | Description |
-| ---------------------------------- | ------ | ----------- |
-| eslint-config-neoncitylights       | | |
-| stylelint-config-neoncitylights    | | |
-| markdownlint-config-neoncitylights | | |
+| Package                              | Directory | Badges |
+| ------------------------------------ | --------- | ------ |
+| `eslint-config-neoncitylights`       | [`packages/eslint-config`](./packages/eslint-config/)            | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) |
+| `stylelint-config-neoncitylights`    | [`packages/stylelint-config`](./packages/stylelint-config)       | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) |
+| `markdownlint-config-neoncitylights` | [`packages/markdownlint-config`](./packages/markdownlint-config) | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) |
 
 ## License
 This repository, including all packages within, is licensed under the MIT license ([`LICENSE-MIT`](./LICENSE) or http://opensource.org/licenses/MIT).

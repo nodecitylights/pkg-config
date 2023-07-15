@@ -5,7 +5,22 @@
 	"license": "MIT",
 	"author": {
 		"name": "Samantha Nguyen",
-		"email": "contact@samanthanguyen.me"
+		"email": "contact@samanthanguyen.me",
+		"url": "https://github.com/neoncitylights"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config"
+	],
+	"homepage": "https://github.com/neoncitylights/lint-config/tree/main/packages/eslint-config",
+	"bugs": "https://github.com/neoncitylights/lint-config/issues",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/neoncitylights/lint-config.git"
+	},
+	"funding": {
+		"type": "individual",
+		"url": "https://github.com/sponsors/neoncitylights"
 	},
 	"main": "index.json",
 	"files": [
