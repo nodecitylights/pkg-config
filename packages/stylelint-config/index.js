@@ -20,11 +20,11 @@ export default {
 		'at-rule-empty-line-before': [ 'always', {
 			'except': [
 				'blockless-after-blockless',
-				'first-nested'
+				'first-nested',
 			],
 			'ignore': [
-				'after-comment'
-			]
+				'after-comment',
+			],
 		} ],
 		'at-rule-name-case': 'lower',
 		'at-rule-name-space-after': 'always-single-line',
@@ -44,8 +44,8 @@ export default {
 		'declaration-bang-space-before': 'always',
 		'declaration-block-no-redundant-longhand-properties': [true, {
 			'ignoreShorthands': [
-				'/flex/'
-			]
+				'/flex/',
+			],
 		} ],
 		'declaration-block-semicolon-newline-after': 'always',
 		'declaration-block-semicolon-newline-before': 'never-multi-line',
@@ -90,8 +90,8 @@ export default {
 		'value-keyword-case': [ 'lower', {
 			'ignoreProperties': [
 				'font-family',
-				'/^--font-/'
-			]
+				'/^--font-/',
+			],
 		} ],
 		'value-list-comma-newline-after': 'never-multi-line',
 		'value-list-comma-newline-before': 'never-multi-line',
@@ -103,7 +103,7 @@ export default {
 		'order/order': [
 			'custom-properties',
 			'declarations',
-			'at-rules'
+			'at-rules',
 		],
 		'order/properties-order': [
 			...properties['display-size'],
@@ -121,5 +121,5 @@ export default {
 		],
 		'plugin/declaration-block-no-ignored-properties': true,
 		'plugin/no-low-performance-animation-properties': true,
-	}
-}
+	},
+};

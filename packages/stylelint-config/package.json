@@ -1,26 +1,26 @@
 {
-  "name": "stylelint-config-neoncitylights",
-  "version": "0.0.0",
-  "description": "Personal Stylelint configuration settings used by Neoncitylights",
-  "license": "MIT",
-  "author": {
-    "name": "Samantha Nguyen",
-    "email": "contact@samanthanguyen.me"
-  },
-  "main": "index.js",
-  "files": [
-    "index.js",
-    "tailwind.js",
-    "scss.js",
-    "cssmodules.js",
-    "properties.json"
-  ],
-  "dependencies": {
-    "stylelint": "^15.10.1",
-    "stylelint-config-css-modules": "^4.2.0",
-    "stylelint-config-recommended": "^13.0.0",
-    "stylelint-config-standard-scss": "^10.0.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
-    "stylelint-high-performance-animation": "^1.8.0"
-  }
+	"name": "stylelint-config-neoncitylights",
+	"version": "0.0.0",
+	"description": "Personal Stylelint configuration settings used by Neoncitylights",
+	"license": "MIT",
+	"author": {
+		"name": "Samantha Nguyen",
+		"email": "contact@samanthanguyen.me"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"tailwind.js",
+		"scss.js",
+		"cssmodules.js",
+		"properties.json"
+	],
+	"dependencies": {
+		"stylelint": "^15.10.1",
+		"stylelint-config-css-modules": "^4.2.0",
+		"stylelint-config-recommended": "^13.0.0",
+		"stylelint-config-standard-scss": "^10.0.0",
+		"stylelint-declaration-block-no-ignored-properties": "^2.7.0",
+		"stylelint-high-performance-animation": "^1.8.0"
+	}
 }

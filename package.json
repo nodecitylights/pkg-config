@@ -25,6 +25,7 @@
 		"packages/**"
 	],
 	"scripts": {
-		"lint": "eslint"
+		"lint": "eslint packages --ext .js",
+		"lint:fix": "npm run lint -- --fix"
 	}
 }

@@ -7,7 +7,7 @@
         "name": "Samantha Nguyen",
         "email": "contact@samanthanguyen.me"
     },
-    "main": "index.js",
+    "main": "index.json",
     "files": [
         "index.json",
         "mdbook.json"
