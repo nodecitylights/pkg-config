@@ -7,11 +7,11 @@
 My personal linting configuration settings for developing projects. Feel free to use them :-)
 
 ## Packages
-| Package                              | Directory | Badges |
-| ------------------------------------ | --------- | ------ |
-| `eslint-config-neoncitylights`       | [`packages/eslint-config`](./packages/eslint-config/)            | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) |
-| `stylelint-config-neoncitylights`    | [`packages/stylelint-config`](./packages/stylelint-config)       | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) |
-| `markdownlint-config-neoncitylights` | [`packages/markdownlint-config`](./packages/markdownlint-config) | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) |
+| Package                              | Badges |
+| ------------------------------------ | ------ |
+| [`eslint-config-neoncitylights`](./packages/eslint-config/)            | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) [![npm](https://img.shields.io/npm/v/eslint-config-neoncitylights?style=flat-square&logo=npm&logoColor=white)](npmjs.com/package/eslint-config-neoncitylights) |
+| [`markdownlint-config-neoncitylights`](./packages/markdownlint-config) | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) [![npm](https://img.shields.io/npm/v/markdownlint-config-neoncitylights?style=flat-square&logo=npm&logoColor=white)](npmjs.com/package/markdownlint-config-neoncitylights) |
+| [`stylelint-config-neoncitylights`](./packages/stylelint-config)       | [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) [![npm](https://img.shields.io/npm/v/stylelint-config-neoncitylights?style=flat-square&logo=npm&logoColor=white)](npmjs.com/package/stylelint-config-neoncitylights) |
 
 ## License
 This repository, including all packages within, is licensed under the MIT license ([`LICENSE-MIT`](./LICENSE) or http://opensource.org/licenses/MIT).
