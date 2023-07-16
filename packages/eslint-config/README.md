@@ -1,6 +1,8 @@
 # eslint-config-neoncitylights
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/eslint-config-neoncitylights?style=flat-square&logo=npm&logoColor=white)](npmjs.com/package/eslint-config-neoncitylights)
+
 
 My personal ESLint configuration settings.
 

@@ -1,6 +1,7 @@
 # style-config-neoncitylights
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/stylelint-config-neoncitylights?style=flat-square&logo=npm&logoColor=white)](npmjs.com/package/stylelint-config-neoncitylights)
 
 My personal Stylelint configuration settings.
 
