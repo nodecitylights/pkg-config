@@ -25,7 +25,18 @@
 		"packages/**"
 	],
 	"scripts": {
-		"lint": "eslint packages --ext .js",
-		"lint:fix": "npm run lint -- --fix"
+		"lint": "npm run lint:md && npm run lint:style && npm run lint:es",
+		"lint:fix": "npm run lint:md-fix && npm run lint:style-fix && npm run lint:es-fix",
+		"lint:md": "markdownlint-cli2 \"packages/**/*.md\" \"#node_modules\"",
+		"lint:md-fix": "npm run lint:md -- --fix",
+		"lint:style": "stylelint \"packages/**/*.css\" --allow-empty-input",
+		"lint:style-fix": "npm run lint:style -- --fix",
+		"lint:es": "eslint packages --ext .js",
+		"lint:es-fix": "npm run lint:es -- --fix"
+	},
+	"devDependencies": {
+		"eslint-config-neoncitylights": "link:packages/eslint-config",
+		"markdownlint-config-neoncitylights": "link:packages/markdownlint-config",
+		"stylelint-config-neoncitylights": "lint:packages/stylelint-config"
 	}
 }

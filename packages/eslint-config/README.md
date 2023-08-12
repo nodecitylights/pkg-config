@@ -3,12 +3,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/v/eslint-config-neoncitylights?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/eslint-config-neoncitylights)
 
-
 My personal ESLint configuration settings.
 
 ## Install
 
-```
+```shell
 npm install eslint-config-neoncitylights --save-dev
 ```
 
@@ -49,7 +48,9 @@ This includes settings for Vitest, React Testing Library, and Playwright.
 ```
 
 ## License
-This repository, including all packages within, is licensed under the MIT license ([`LICENSE-MIT`](../../LICENSE) or http://opensource.org/licenses/MIT).
+
+This repository, including all packages within, is licensed under the MIT license ([`LICENSE-MIT`](../../LICENSE) or <http://opensource.org/licenses/MIT>).
 
 ### Contribution
+
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the MIT license, shall be licensed as above, without any additional terms or conditions.
