@@ -1,6 +1,6 @@
-import properties from './properties.json';
+const properties = require('./properties.json');
 
-export default {
+module.exports = {
 	extends: [
 		'stylelint-config-recommended',
 	],
@@ -117,7 +117,7 @@ export default {
 			...properties['background'],
 			...properties['text'],
 			...properties['animations'],
-			...properties['transform'],
+			...properties['transforms'],
 		],
 		'plugin/declaration-block-no-ignored-properties': true,
 		'plugin/no-low-performance-animation-properties': true,

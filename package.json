@@ -29,7 +29,7 @@
 		"lint:fix": "npm run lint:md-fix && npm run lint:style-fix && npm run lint:es-fix",
 		"lint:md": "markdownlint-cli2 \"packages/**/*.md\" \"#node_modules\"",
 		"lint:md-fix": "npm run lint:md -- --fix",
-		"lint:style": "stylelint packages",
+		"lint:style": "stylelint \"packages/**/*.css\" --allow-empty-input",
 		"lint:style-fix": "npm run lint:style -- --fix",
 		"lint:es": "eslint packages --ext .js",
 		"lint:es-fix": "npm run lint:es -- --fix"
