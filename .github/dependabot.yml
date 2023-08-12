@@ -19,8 +19,13 @@ updates:
         patterns:
           - "@typescript-eslint/*"
           - "eslint"
+          - "eslint-*"
           - "typescript"
           - "typedoc"
+      stylelint:
+        patterns:
+          - "stylelint"
+          - "stylelint-*"
       vite:
         patterns:
           - "vite"
