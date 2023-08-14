@@ -36,7 +36,10 @@
 	},
 	"devDependencies": {
 		"eslint-config-neoncitylights": "link:packages/eslint-config",
+		"eslint": "^8.47.0",
+		"markdownlint-cli2": "^0.8.1",
 		"markdownlint-config-neoncitylights": "link:packages/markdownlint-config",
-		"stylelint-config-neoncitylights": "lint:packages/stylelint-config"
+		"stylelint-config-neoncitylights": "lint:packages/stylelint-config",
+		"stylelint": "^15.10.2"
 	}
 }
