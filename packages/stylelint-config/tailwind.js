@@ -9,7 +9,7 @@ export default [
 						'@layer',
 						'@apply',
 						'@config',
-						'@respponsive',
+						'@responsive',
 						'@variants',
 					],
 				},
