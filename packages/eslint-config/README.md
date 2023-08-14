@@ -8,6 +8,12 @@ My personal ESLint configuration settings.
 ## Install
 
 ```shell
+npm install eslint eslint-config-neoncitylights --save-dev
+```
+
+Or, if ESLint is already installed:
+
+```shell
 npm install eslint-config-neoncitylights --save-dev
 ```
 

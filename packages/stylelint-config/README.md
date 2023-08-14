@@ -8,6 +8,12 @@ My personal Stylelint configuration settings.
 ## Install
 
 ```shell
+npm install stylelint stylelint-config-neoncitylights --save-dev
+```
+
+Or, if Stylelint is already installed:
+
+```shell
 npm install stylelint-config-neoncitylights --save-dev
 ```
 
