@@ -8,6 +8,12 @@ My personal Markdownlint configuration settings.
 ## Install
 
 ```shell
+npm install markdownlint-cli2 markdown-config-neoncitylights --save-dev
+```
+
+Or, if markdownlint is already installed:
+
+```shell
 npm install markdown-config-neoncitylights --save-dev
 ```
 
