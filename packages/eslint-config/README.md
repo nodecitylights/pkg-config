@@ -19,9 +19,9 @@ Useful for developing pure TypeScript libraries, or using TypeScript within your
 
 ```js
 {
-    "extends": {
+    "extends": [
         "neoncitylights/typescript"
-    }
+    ]
 }
 ```
 
