@@ -27,7 +27,7 @@
 	"scripts": {
 		"lint": "npm run lint:md && npm run lint:style && npm run lint:es",
 		"lint:fix": "npm run lint:md-fix && npm run lint:style-fix && npm run lint:es-fix",
-		"lint:md": "markdownlint-cli2 \"packages/**/*.md\" \"#node_modules\"",
+		"lint:md": "markdownlint-cli2 \"*.md\" \"packages/**/*.md\" \"#node_modules\"",
 		"lint:md-fix": "npm run lint:md -- --fix",
 		"lint:style": "stylelint \"packages/**/*.css\" --allow-empty-input",
 		"lint:style-fix": "npm run lint:style -- --fix",
