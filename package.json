@@ -40,6 +40,6 @@
 		"markdownlint-cli2": "^0.8.1",
 		"markdownlint-config-neoncitylights": "link:packages/markdownlint-config",
 		"stylelint-config-neoncitylights": "lint:packages/stylelint-config",
-		"stylelint": "^15.10.2"
+		"stylelint": "^15.10.3"
 	}
 }
