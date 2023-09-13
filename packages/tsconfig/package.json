@@ -21,9 +21,9 @@
 		"type": "individual",
 		"url": "https://github.com/sponsors/neoncitylights"
 	},
-	"main": "index.json",
+	"main": "tsconfig.json",
 	"files": [
-		"index.json",
-		"react.json"
+		"tsconfig.json",
+		"tsconfig.react.json"
 	]
 }

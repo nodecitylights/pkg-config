@@ -11,6 +11,24 @@ My personal TypeScript configuration settings.
 npm install tsconfig-neoncitylights --save-dev
 ```
 
+## Usage
+
+For vanilla TypeScript, add this to your `tsconfig.json`:
+
+```json
+{
+  "extends": "tsconfig-neoncitylights/tsconfig.json"
+}
+```
+
+For TypeScript and React, add this to your `tsconfig.json`:
+
+```json
+{
+  "extends": "tsconfig-neoncitylights/tsconfig.react.json"
+}
+```
+
 ## License
 
 This repository, including all packages within, is licensed under the MIT license ([`LICENSE-MIT`](../../LICENSE) or <http://opensource.org/licenses/MIT>).
