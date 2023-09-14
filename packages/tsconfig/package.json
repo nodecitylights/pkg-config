@@ -1,0 +1,29 @@
+{
+	"name": "tsconfig-neoncitylights",
+	"version": "0.0.0",
+	"description": "Personal TypeScript configuration settings used by Neoncitylights",
+	"license": "MIT",
+	"author": {
+		"name": "Samantha Nguyen",
+		"email": "contact@samanthanguyen.me"
+	},
+	"keywords": [
+		"typescript",
+		"tsconfig"
+	],
+	"homepage": "https://github.com/neoncitylights/lint-config/tree/main/packages/tsconfig",
+	"bugs": "https://github.com/neoncitylights/lint-config/issues",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/neoncitylights/lint-config.git"
+	},
+	"funding": {
+		"type": "individual",
+		"url": "https://github.com/sponsors/neoncitylights"
+	},
+	"main": "tsconfig.json",
+	"files": [
+		"tsconfig.json",
+		"tsconfig.react.json"
+	]
+}
