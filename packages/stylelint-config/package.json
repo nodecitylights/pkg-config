@@ -11,8 +11,8 @@
 		"stylelint",
 		"stylelint-config"
 	],
-	"homepage": "https://github.com/neoncitylights/lint-config/tree/main/packages/stylelint-config",
-	"bugs": "https://github.com/neoncitylights/lint-config/issues",
+	"homepage": "https://github.com/neoncitylights/pkg-config/tree/main/packages/stylelint-config",
+	"bugs": "https://github.com/neoncitylights/pkg-config/issues",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/neoncitylights/lint-config.git"
