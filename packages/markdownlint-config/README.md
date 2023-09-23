@@ -1,4 +1,4 @@
-# markdown-config-neoncitylights
+# markdownlint-config-neoncitylights
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/v/markdownlint-config-neoncitylights?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/markdownlint-config-neoncitylights)
@@ -8,13 +8,13 @@ My personal Markdownlint configuration settings.
 ## Install
 
 ```shell
-npm install markdownlint-cli2 markdown-config-neoncitylights --save-dev
+npm install markdownlint-cli2 markdownlint-config-neoncitylights --save-dev
 ```
 
 Or, if markdownlint is already installed:
 
 ```shell
-npm install markdown-config-neoncitylights --save-dev
+npm install markdownlint-config-neoncitylights --save-dev
 ```
 
 ## License
