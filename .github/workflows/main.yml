@@ -37,6 +37,11 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
+      - name: Print environment info
+        run: |
+          node --version
+          npm --version
+          npm run lint:md-env
       - name: Lint
         run: npm run lint:md
 
@@ -54,6 +59,11 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
+      - name: Print environment info
+        run: |
+          node --version
+          npm --version
+          npm run lint:style-env
       - name: Lint
         run: npm run lint:style
 
@@ -70,6 +80,9 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
+      - name: Print environment info
+        run: |
+          npm run lint:es-env
       - name: Lint
         run: npm run lint:es
 
