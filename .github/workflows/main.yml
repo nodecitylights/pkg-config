@@ -44,6 +44,9 @@ jobs:
           npm run lint:md-env
       - name: Lint
         run: npm run lint:md
+      - name: Check if package is publishable
+        run: npm publish --dry-run
+        working-directory: packages/markdownlint-config
 
 
   lint-stylelint:
@@ -66,6 +69,9 @@ jobs:
           npm run lint:style-env
       - name: Lint
         run: npm run lint:style
+      - name: Check if package is publishable
+        run: npm publish --dry-run
+        working-directory: packages/stylelint-config
 
   lint-eslint:
     runs-on: ubuntu-latest
@@ -85,6 +91,9 @@ jobs:
           npm run lint:es-env
       - name: Lint
         run: npm run lint:es
+      - name: Check if package is publishable
+        run: npm publish --dry-run
+        working-directory: packages/eslint-config
 
   # test:
   #   runs-on: ubuntu-latest
