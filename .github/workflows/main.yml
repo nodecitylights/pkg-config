@@ -115,9 +115,7 @@ jobs:
     if: ${{ success() && github.event_name == 'push' }}
     needs:
       - build
-      - lint-md
-      - lint-stylelint
-      - lint-eslint
+      - lint
       - pkg-is-publishable
       # - test
     steps:
@@ -129,9 +127,7 @@ jobs:
     if: ${{ success() && github.event_name == 'pull_request' }}
     needs:
       - build
-      - lint-md
-      - lint-stylelint
-      - lint-eslint
+      - lint
       - pkg-is-publishable
       # - test
     steps:
