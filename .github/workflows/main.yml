@@ -30,22 +30,23 @@ jobs:
     needs: build
     strategy:
       matrix:
-        - tool: eslint
-          npm-cmd-suffix: es
-          env-cmd: |
-            npm run lint:es-env
-        - tool: stylelint
-          npm-cmd-suffix: style
-          env-cmd: |
-            node --version
-            npm --version
-            npm run lint:style-env
-        - tool: markdownlint
-          npm-cmd-suffix: md
-          env-cmd: |
-            node --version
-            npm --version
-            npm run lint:md-env
+        include:
+          - tool: eslint
+            npm-cmd-suffix: es
+            env-cmd: |
+              npm run lint:es-env
+          - tool: stylelint
+            npm-cmd-suffix: style
+            env-cmd: |
+              node --version
+              npm --version
+              npm run lint:style-env
+          - tool: markdownlint
+            npm-cmd-suffix: md
+            env-cmd: |
+              node --version
+              npm --version
+              npm run lint:md-env
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
