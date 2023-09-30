@@ -5,7 +5,8 @@
 	"license": "MIT",
 	"author": {
 		"name": "Samantha Nguyen",
-		"email": "contact@samanthanguyen.me"
+		"email": "contact@samanthanguyen.me",
+		"url": "https://github.com/neoncitylights"
 	},
 	"keywords": [
 		"typescript",
@@ -13,7 +14,11 @@
 	],
 	"homepage": "https://github.com/neoncitylights/pkg-config/tree/main/packages/tsconfig",
 	"bugs": "https://github.com/neoncitylights/pkg-config/issues",
-	"repository": "github:neoncitylights/pkg-config",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/neoncitylights/pkg-config.git",
+		"directory": "packages/tsconfig"
+	},
 	"funding": {
 		"type": "individual",
 		"url": "https://github.com/sponsors/neoncitylights"
