@@ -14,7 +14,11 @@
 	],
 	"homepage": "https://github.com/neoncitylights/pkg-config/tree/main/packages/eslint-config",
 	"bugs": "https://github.com/neoncitylights/pkg-config/issues",
-	"repository": "github:neoncitylights/pkg-config",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/neoncitylights/pkg-config.git",
+		"directory": "packages/eslint-config"
+	},
 	"funding": {
 		"type": "individual",
 		"url": "https://github.com/sponsors/neoncitylights"
