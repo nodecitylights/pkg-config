@@ -1,4 +1,4 @@
-# lint-config
+# pkg-config
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Node.js workflow](https://img.shields.io/github/actions/workflow/status/neoncitylights/pkg-config/main.yml?style=flat-square&logo=github&logoColor=white&label=Node.js%20CI)]((https://github.com/neoncitylights/pkg-config/actions/workflows/main.yml))
