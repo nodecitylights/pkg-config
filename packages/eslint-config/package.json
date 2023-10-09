@@ -35,8 +35,8 @@
 		"eslint": "^8.x"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^6.7.3",
-		"@typescript-eslint/parser": "^6.7.3",
+		"@typescript-eslint/eslint-plugin": "^6.7.4",
+		"@typescript-eslint/parser": "^6.7.4",
 		"eslint-plugin-jsx-a11y": "^6.7.1",
 		"eslint-plugin-no-jquery": "^2.7.0",
 		"eslint-plugin-node": "^11.1.0",
@@ -46,8 +46,8 @@
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-security": "^1.7.1",
 		"eslint-plugin-simple-import-sort": "^10.0.0",
-		"eslint-plugin-storybook": "^0.6.14",
+		"eslint-plugin-storybook": "^0.6.15",
 		"eslint-plugin-testing-library": "^6.0.2",
-		"eslint-plugin-vitest": "^0.3.1"
+		"eslint-plugin-vitest": "^0.3.2"
 	}
 }
