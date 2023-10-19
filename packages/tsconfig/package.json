@@ -1,6 +1,6 @@
 {
 	"name": "tsconfig-neoncitylights",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Personal TypeScript configuration settings used by Neoncitylights",
 	"license": "MIT",
 	"author": {

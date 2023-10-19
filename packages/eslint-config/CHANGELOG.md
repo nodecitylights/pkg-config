@@ -8,6 +8,8 @@
  - ([`a9bd0ad`](https://github.com/neoncitylights/pkg-config/commit/a9bd0addf7c8bbd7dc657040d76176d676f51a73)) deps: upgrade `eslint-plugin-storybook` from 0.6.14 to 0.6.15 (#41)
  - ([`381191c`](https://github.com/neoncitylights/pkg-config/commit/381191cba46647af6d2b51cebbb832ee29abe269)) deps: upgrade `eslint-plugin-testing-library` from 6.0.2 to 6.1.0 (#42)
  - ([`a9bd0ad`](https://github.com/neoncitylights/pkg-config/commit/a9bd0addf7c8bbd7dc657040d76176d676f51a73)) deps: upgrade `eslint-plugin-vitest` from 0.3.1 to 0.3.2 (#41)
+ - ([`603623e`](https://github.com/neoncitylights/pkg-config/commit/603623e0b4c60f35558fbdda4aa1ff2b2221d77b)) chore: fix package metadata for `author.url` and `repository` fields (#38)
+ - ([`05cf9e9`](https://github.com/neoncitylights/pkg-config/commit/603623e0b4c60f35558fbdda4aa1ff2b2221d77b)) chore: update references to old repository name (#35)
 
 ## 0.2.0 (2023-08-28)
 
