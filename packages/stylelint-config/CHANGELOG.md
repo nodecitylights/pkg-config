@@ -1,7 +1,8 @@
 # Changelog
 
-## 0.2.1 (2023-10-19)
+## 0.3.0 (2023-10-19)
 
+ - ([`5e7242d`](https://github.com/neoncitylights/pkg-config/commit/5e7242dd2bb54eb7772f798f01c7b590f80ca1ca)) chore: bump `stylelint-config-standard-scss` from 10.0.0 to 11.0.0 (#20)
  - ([`603623e`](https://github.com/neoncitylights/pkg-config/commit/603623e0b4c60f35558fbdda4aa1ff2b2221d77b)) chore: fix package metadata for `author.url` and `repository` fields (#38)
  - ([`05cf9e9`](https://github.com/neoncitylights/pkg-config/commit/603623e0b4c60f35558fbdda4aa1ff2b2221d77b)) chore: update references to old repository name (#35)
 
