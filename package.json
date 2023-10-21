@@ -32,14 +32,17 @@
 		"lint:style-env": "stylelint --version",
 		"lint:es": "eslint packages --ext .js",
 		"lint:es-fix": "npm run lint:es -- --fix",
-		"lint:es-env": "eslint --env-info"
+		"lint:es-env": "eslint --env-info",
+		"lint:pub": "publint deps",
+		"lint:pub-env": "publint --version"
 	},
 	"devDependencies": {
-		"eslint-config-neoncitylights": "link:packages/eslint-config",
 		"eslint": "^8.51.0",
+		"eslint-config-neoncitylights": "link:packages/eslint-config",
 		"markdownlint-cli2": "^0.10.0",
 		"markdownlint-config-neoncitylights": "link:packages/markdownlint-config",
-		"stylelint-config-neoncitylights": "lint:packages/stylelint-config",
-		"stylelint": "^15.10.3"
+		"publint": "^0.2.5",
+		"stylelint": "^15.10.3",
+		"stylelint-config-neoncitylights": "lint:packages/stylelint-config"
 	}
 }
