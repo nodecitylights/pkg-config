@@ -35,12 +35,12 @@
 		"eslint": "^8.x"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^6.7.5",
-		"@typescript-eslint/parser": "^6.7.5",
+		"@typescript-eslint/eslint-plugin": "^6.8.0",
+		"@typescript-eslint/parser": "^6.8.0",
 		"eslint-plugin-jsx-a11y": "^6.7.1",
 		"eslint-plugin-no-jquery": "^2.7.0",
 		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-playwright": "^0.16.0",
+		"eslint-plugin-playwright": "^0.18.0",
 		"eslint-plugin-promise": "^6.1.1",
 		"eslint-plugin-react": "^7.33.2",
 		"eslint-plugin-react-hooks": "^4.6.0",
@@ -48,6 +48,6 @@
 		"eslint-plugin-simple-import-sort": "^10.0.0",
 		"eslint-plugin-storybook": "^0.6.15",
 		"eslint-plugin-testing-library": "^6.1.0",
-		"eslint-plugin-vitest": "^0.3.2"
+		"eslint-plugin-vitest": "^0.3.8"
 	}
 }
