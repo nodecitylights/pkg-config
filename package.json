@@ -42,7 +42,7 @@
 		"markdownlint-cli2": "^0.10.0",
 		"markdownlint-config-neoncitylights": "link:packages/markdownlint-config",
 		"publint": "^0.2.5",
-		"stylelint": "^15.10.3",
+		"stylelint": "^15.11.0",
 		"stylelint-config-neoncitylights": "lint:packages/stylelint-config"
 	}
 }
