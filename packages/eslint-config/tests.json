@@ -1,7 +1,6 @@
 {
 	"extends": [
 		"plugin:vitest/recommended",
-		"plugin:playwright/recommended",
-		"plugin:testing-library/react"
+		"plugin:playwright/recommended"
 	]
 }
