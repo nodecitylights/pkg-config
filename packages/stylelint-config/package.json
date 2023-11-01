@@ -41,5 +41,8 @@
 		"stylelint-declaration-block-no-ignored-properties": "^2.7.0",
 		"stylelint-high-performance-animation": "^1.9.0",
 		"stylelint-stylistic": "^0.4.3"
+	},
+	"devDependencies": {
+		"stylelint-order": "^6.0.3"
 	}
 }
