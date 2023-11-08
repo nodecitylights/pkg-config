@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0 (2023-11-08)
+
+ - ([`5da1b56`])(https://github.com/neoncitylights/pkg-config/commit/5da1b563d56742886e686240c9958025697d05aa): chore: bump `stylelint-config-standard-scss` from 11.0.0 to 11.1.0 (#59)
+
 ## 0.3.0 (2023-10-19)
 
  - ([`5e7242d`](https://github.com/neoncitylights/pkg-config/commit/5e7242dd2bb54eb7772f798f01c7b590f80ca1ca)) chore: bump `stylelint-config-standard-scss` from 10.0.0 to 11.0.0 (#20)
