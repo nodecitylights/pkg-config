@@ -1,8 +1,8 @@
 # Changelog
 
 ## 0.3.0 (2023-11-20)
- 
-- fix: widen compatibility for peer dependency markdownlint-cli2
+
+- ([`0fe8170`](https://github.com/neoncitylights/pkg-config/commit/0fe81705e79c0be9704aced4c52488feaa80d3bc)) fix: widen compatibility for peer dependency markdownlint-cli2
 
 ## 0.2.3 (2023-10-19)
 
