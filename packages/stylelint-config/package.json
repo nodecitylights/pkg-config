@@ -32,17 +32,17 @@
 		"properties.json"
 	],
 	"peerDependencies": {
-		"stylelint": "^15.x"
+		"stylelint": "^15.x || ^16.x"
 	},
 	"dependencies": {
 		"stylelint-config-css-modules": "^4.3.0",
-		"stylelint-config-recommended": "^13.0.0",
+		"stylelint-config-recommended": "^14.0.0",
 		"stylelint-config-standard-scss": "^11.1.0",
 		"stylelint-declaration-block-no-ignored-properties": "^2.7.0",
 		"stylelint-high-performance-animation": "^1.9.0",
 		"stylelint-stylistic": "^0.4.3"
 	},
 	"devDependencies": {
-		"stylelint-order": "^6.0.3"
+		"stylelint-order": "^6.0.4"
 	}
 }
