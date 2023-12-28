@@ -8,6 +8,7 @@ module.exports = {
 		'stylelint-declaration-block-no-ignored-properties',
 		'stylelint-high-performance-animation',
 		'stylelint-order',
+		'@stylistic/stylelint-plugin',
 	],
 	rules: {
 		// --- Start: Core stylelint + stylistic rules ---
