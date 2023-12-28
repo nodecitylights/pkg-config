@@ -10,7 +10,7 @@
 	"extends": [
 		"eslint:recommended",
 		"plugin:promise/recommended",
-		"plugin:security/recommended"
+		"plugin:security/recommended-legacy"
 	],
 	"plugins": [
 		"security",
