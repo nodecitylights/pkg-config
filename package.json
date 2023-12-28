@@ -1,23 +1,5 @@
 {
-	"name": "lint-config-neoncitylights",
 	"private": true,
-	"version": "0.0.0",
-	"description": "Personal lint configuration settings used by Neoncitylights",
-	"license": "MIT",
-	"type": "module",
-	"author": {
-		"name": "Samantha",
-		"url": "https://github.com/neoncitylights"
-	},
-	"keywords": [
-		"typescript"
-	],
-	"bugs": "https://github.com/neoncitylights/pkg-config/issues",
-	"repository": "github:neoncitylights/pkg-config",
-	"funding": {
-		"type": "individual",
-		"url": "https://github.com/sponsors/neoncitylights"
-	},
 	"workspaces": [
 		"packages/**"
 	],
