@@ -33,7 +33,8 @@
 		"typescript.json"
 	],
 	"scripts": {
-		"publint": "publint ."
+		"publint": "publint .",
+		"prepublishOnly": "npm run publint"
 	},
 	"peerDependencies": {
 		"eslint": "^8.x"

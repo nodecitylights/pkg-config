@@ -30,7 +30,8 @@
 		"mdbook.json"
 	],
 	"scripts": {
-		"publint": "publint ."
+		"publint": "publint .",
+		"prepublishOnly": "npm run publint"
 	},
 	"peerDependencies": {
 		"markdownlint-cli2": ">= 0.10.0"

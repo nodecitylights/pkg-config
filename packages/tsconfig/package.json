@@ -30,6 +30,7 @@
 		"tsconfig.react.json"
 	],
 	"scripts": {
-		"publint": "publint ."
+		"publint": "publint .",
+		"prepublishOnly": "npm run publint"
 	}
 }
