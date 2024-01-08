@@ -25,6 +25,13 @@
 			"imports": "always-multiline",
 			"objects": "always-multiline"
 		}],
+		"@typescript-eslint/consistent-type-exports": ["error", {
+			"fixMixedExportsWithInlineTypeSpecifier": false
+		}],
+		"@typescript-eslint/consistent-type-imports": ["error", {
+			"prefer": "type-imports",
+			"fixStyle": "separate-type-imports"
+		}],
 		"@typescript-eslint/default-param-last": ["error"],
 		"@typescript-eslint/no-explicit-any": "off",
 		"@typescript-eslint/no-inferrable-types": ["error", {
