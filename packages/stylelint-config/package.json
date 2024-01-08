@@ -34,7 +34,7 @@
 	],
 	"scripts": {
 		"publint": "publint .",
-		"prepublish": "npm run publint"
+		"prepublishOnly": "npm run publint"
 	},
 	"peerDependencies": {
 		"stylelint": "^15.x || ^16.x"

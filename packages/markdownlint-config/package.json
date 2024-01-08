@@ -31,7 +31,7 @@
 	],
 	"scripts": {
 		"publint": "publint .",
-		"prepublish": "npm run publint"
+		"prepublishOnly": "npm run publint"
 	},
 	"peerDependencies": {
 		"markdownlint-cli2": ">= 0.10.0"
