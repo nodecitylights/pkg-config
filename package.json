@@ -15,7 +15,7 @@
 		"lint:es": "eslint packages --ext .js",
 		"lint:es-fix": "npm run lint:es -- --fix",
 		"lint:es-env": "eslint --env-info",
-		"lint:pub": "publint deps",
+		"lint:pub": "npm run publint -ws --if-present",
 		"lint:pub-env": "publint --version"
 	},
 	"devDependencies": {

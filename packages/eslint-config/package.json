@@ -23,6 +23,7 @@
 		"type": "individual",
 		"url": "https://github.com/sponsors/neoncitylights"
 	},
+	"type": "commonjs",
 	"main": "index.json",
 	"files": [
 		"index.json",
@@ -31,6 +32,9 @@
 		"tests.json",
 		"typescript.json"
 	],
+	"scripts": {
+		"publint": "publint ."
+	},
 	"peerDependencies": {
 		"eslint": "^8.x"
 	},

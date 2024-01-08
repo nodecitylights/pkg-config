@@ -23,9 +23,13 @@
 		"type": "individual",
 		"url": "https://github.com/sponsors/neoncitylights"
 	},
+	"type": "commonjs",
 	"main": "tsconfig.json",
 	"files": [
 		"tsconfig.json",
 		"tsconfig.react.json"
-	]
+	],
+	"scripts": {
+		"publint": "publint ."
+	}
 }
