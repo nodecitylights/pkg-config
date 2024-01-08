@@ -23,11 +23,15 @@
 		"type": "individual",
 		"url": "https://github.com/sponsors/neoncitylights"
 	},
+	"type": "commonjs",
 	"main": "index.json",
 	"files": [
 		"index.json",
 		"mdbook.json"
 	],
+	"scripts": {
+		"publint": "publint ."
+	},
 	"peerDependencies": {
 		"markdownlint-cli2": ">= 0.10.0"
 	}

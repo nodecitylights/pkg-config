@@ -23,6 +23,7 @@
 		"type": "individual",
 		"url": "https://github.com/sponsors/neoncitylights"
 	},
+	"type": "commonjs",
 	"main": "index.js",
 	"files": [
 		"index.js",
@@ -31,6 +32,9 @@
 		"cssmodules.js",
 		"properties.json"
 	],
+	"scripts": {
+		"publint": "publint ."
+	},
 	"peerDependencies": {
 		"stylelint": "^15.x || ^16.x"
 	},
