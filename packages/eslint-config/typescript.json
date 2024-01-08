@@ -17,14 +17,16 @@
 		"dist/**/*.ts"
 	],
 	"rules": {
-		"@typescript-eslint/adjacent-overload-signatures": ["error"],
-		"@typescript-eslint/comma-dangle": ["error", {
+		"@stylistic/ts/comma-dangle": ["error", {
 			"arrays": "always-multiline",
 			"exports": "always-multiline",
 			"functions": "always-multiline",
 			"imports": "always-multiline",
 			"objects": "always-multiline"
 		}],
+		"@stylistic/ts/no-unused-vars": ["error"],
+		"@stylistic/ts/semi": ["error"],
+		"@typescript-eslint/adjacent-overload-signatures": ["error"],
 		"@typescript-eslint/consistent-type-exports": ["error", {
 			"fixMixedExportsWithInlineTypeSpecifier": false
 		}],
@@ -38,14 +40,9 @@
 			"ignoreParameters": true,
 			"ignoreProperties": true
 		}],
-		"@typescript-eslint/no-unused-vars": ["error"],
-		"@typescript-eslint/semi": ["error"],
-		"comma-dangle": "off",
 		"default-param-last": "off",
-		"no-unused-vars": "off",
 		"indent": ["error", "tab"],
 		"linebreak-style": ["error", "unix"],
-		"quotes": ["error", "single"],
-		"semi": "off"
+		"quotes": ["error", "single"]
 	}
 }
