@@ -41,10 +41,10 @@
 	},
 	"dependencies": {
 		"@stylistic/eslint-plugin-ts": "^1.5.3",
-		"@typescript-eslint/eslint-plugin": "^6.18.0",
-		"@typescript-eslint/parser": "^6.18.0",
+		"@typescript-eslint/eslint-plugin": "^6.18.1",
+		"@typescript-eslint/parser": "^6.18.1",
 		"eslint-plugin-jsx-a11y": "^6.8.0",
-		"eslint-plugin-n": "^16.6.1",
+		"eslint-plugin-n": "^16.6.2",
 		"eslint-plugin-no-jquery": "^2.7.0",
 		"eslint-plugin-playwright": "^0.21.0",
 		"eslint-plugin-promise": "^6.1.1",
