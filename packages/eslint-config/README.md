@@ -31,16 +31,6 @@ Useful for developing pure TypeScript libraries, or using TypeScript within your
 }
 ```
 
-### React + TypeScript
-
-```js
-{
-    "extends": [
-        "neoncitylights/react-typescript"
-    ]
-}
-```
-
 ### Testing (unit, integration)
 
 This includes settings for Vitest, React Testing Library, and Playwright.

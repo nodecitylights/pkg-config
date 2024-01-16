@@ -1,6 +1,0 @@
-{
-	"extends": [
-		"./react.json",
-		"./typescript.json"
-	]
-}
