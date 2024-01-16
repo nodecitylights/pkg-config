@@ -28,7 +28,6 @@
 	"files": [
 		"index.json",
 		"react.json",
-		"react-typescript.json",
 		"tests.json",
 		"typescript.json"
 	],
