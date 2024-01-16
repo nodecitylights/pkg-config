@@ -27,7 +27,7 @@
 	"main": "tsconfig.json",
 	"files": [
 		"tsconfig.json",
-		"tsconfig.react.json"
+		"react.json"
 	],
 	"scripts": {
 		"publint": "publint .",
