@@ -25,7 +25,7 @@ For TypeScript and React, add this to your `tsconfig.json`:
 
 ```json
 {
-  "extends": "tsconfig-neoncitylights/tsconfig.react.json"
+  "extends": "tsconfig-neoncitylights/react.json"
 }
 ```
 
