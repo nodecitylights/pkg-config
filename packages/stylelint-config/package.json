@@ -48,7 +48,7 @@
 		"stylelint-high-performance-animation": "^1.9.0"
 	},
 	"devDependencies": {
-		"stylelint": "^16.1.0",
+		"stylelint": "^16.2.0",
 		"stylelint-order": "^6.0.4"
 	}
 }
