@@ -17,6 +17,7 @@ updates:
     groups:
       typescript-eslint:
         patterns:
+          - "@stylistic/eslint-plugin-ts"
           - "@typescript-eslint/*"
           - "eslint"
           - "eslint-*"
@@ -24,6 +25,7 @@ updates:
           - "typedoc"
       stylelint:
         patterns:
+          - "@stylistic/stylelint-plugin"
           - "stylelint"
           - "stylelint-*"
       vite:
