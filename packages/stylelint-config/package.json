@@ -40,7 +40,7 @@
 		"stylelint": "^15.x || ^16.x"
 	},
 	"dependencies": {
-		"@stylistic/stylelint-plugin": "^2.0.0",
+		"@stylistic/stylelint-plugin": "^2.1.0",
 		"stylelint-config-css-modules": "^4.4.0",
 		"stylelint-config-recommended": "^14.0.0",
 		"stylelint-config-standard-scss": "^13.0.0",
