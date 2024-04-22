@@ -19,7 +19,7 @@
 		"lint:pub-env": "publint --version"
 	},
 	"devDependencies": {
-		"eslint": "^8.57.0",
+		"eslint": "^9.1.0",
 		"eslint-config-neoncitylights": "link:packages/eslint-config",
 		"markdownlint-cli2": "^0.12.1",
 		"markdownlint-config-neoncitylights": "link:packages/markdownlint-config",
